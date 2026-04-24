@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chart-muscle: #10b981;
+  --color-chart-fat: #f97316;
+  --color-chart-weight: #3b82f6;
+}
+
+body {
+  background-color: #000000; /* OLED optimized */
+  color: #f3f4f6;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
