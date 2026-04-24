@@ -23,7 +23,7 @@
       </main>
 
       <!-- Bottom Navigation -->
-      <nav class="absolute bottom-0 w-full bg-black/90 backdrop-blur-xl border-t border-gray-900 pb-safe pt-2 px-6 flex justify-between items-center z-20">
+      <nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] bg-black/90 backdrop-blur-xl border-t border-gray-900 pb-safe pt-2 px-6 flex justify-between items-center z-20">
         <button 
           v-for="tab in tabs" :key="tab.id"
           @click="currentTab = tab.id"
